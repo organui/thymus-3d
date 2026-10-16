@@ -1,0 +1,394 @@
+{
+  "dataset": "BodyParts3D / Anatomography",
+  "versions": [
+    "3.0",
+    "4.3"
+  ],
+  "retrieved": "2026-10-16",
+  "license": "CC-BY-SA-2.1-JP",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "sourceLicenseStatement": "https://lifesciencedb.jp/bp3d/info/index.html#License",
+  "credit": "BodyParts3D / Anatomography, © The Database Center for Life Science. CC BY-SA 2.1 Japan. Adapted by OrganUI.",
+  "sources": {
+    "3.0": {
+      "release": "BodyParts3D 3.0 (20110915, BodyParts3D_3.0_obj_95), converted to binary STL by the mirror",
+      "repository": "https://github.com/Kevin-Mattheus-Moerman/BodyParts3D",
+      "commit": "f0eeb6e843380cfe6b83797cf8c3e1af74de5e61",
+      "partsList": {
+        "file": "parts_list_e.txt",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/parts_list_e.txt",
+        "sha256": "824a34ed939a53375037d0d68b88ad2b63b1f0ae15a585632af2a63c2ab2e4af"
+      }
+    },
+    "4.3": {
+      "variant": "Object set 4.3, ontology tree FMA3.0; official IS-A concept-to-element mapping",
+      "repository": "https://github.com/olivercase/body_parts_3d_api",
+      "commit": "fd527e6f4daf732fd814314d9257df5877b844bc",
+      "mapping": {
+        "file": "docs/model-source/FMA2Obj-4.3.tsv",
+        "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+      },
+      "alignmentTo30": [
+        {
+          "structure": "heart",
+          "reference": "FMA7274",
+          "shiftMm": [
+            0,
+            0,
+            10.2
+          ],
+          "medianResidualMm": 0.2
+        },
+        {
+          "structure": "pulmonary-trunk",
+          "reference": "FMA66326",
+          "shiftMm": [
+            -0.1,
+            0,
+            10.5
+          ],
+          "medianResidualMm": 0.2
+        }
+      ],
+      "alignmentReferences": [
+        {
+          "id": "FMA7274",
+          "file": "FMA7274.stl",
+          "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7274.stl",
+          "sha256": "ed570773264c7abf73db5f5da20e5e4f69943315e8c5995da850a2821988b0a2",
+          "bytes": 16579684
+        },
+        {
+          "id": "FMA66326",
+          "file": "FMA66326.stl",
+          "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA66326.stl",
+          "sha256": "3067ec3d6f6c9a98ac2797d6de36f3eb39c7e2569edc6da7f44b6e545dde8af3",
+          "bytes": 5847484
+        }
+      ]
+    }
+  },
+  "transform": {
+    "sourceBoundsMm": {
+      "min": [
+        -36.3037,
+        -176.605,
+        1184.39
+      ],
+      "max": [
+        86.68419647216797,
+        -54.305198669433594,
+        1416.9200439453125
+      ]
+    },
+    "centerMm": [
+      25.190248236083985,
+      -115.45509933471679,
+      1300.6550219726564
+    ],
+    "scale": 0.016,
+    "axes": "[x, z, -y]"
+  },
+  "runtime": {
+    "file": "thymus.glb",
+    "bytes": 4228216,
+    "sha256": "77e05228d365e284f4772c29328d928324808131aa2b6772f43d24978137ebb7"
+  },
+  "structures": [
+    {
+      "id": "right-lobe",
+      "fma": "FMA71194",
+      "source": "3.0",
+      "concepts": [
+        "FMA71194"
+      ],
+      "sourceName": "right lobe of thymus",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA71194",
+          "concept": "FMA71194",
+          "sourceName": "right lobe of thymus",
+          "sha256": "ceb34fae4ffcf10f560e9285165c4a613c9e264a7d54d824ed567cffc537cd28",
+          "bytes": 1613484,
+          "vertices": 16136,
+          "triangles": 32268
+        }
+      ]
+    },
+    {
+      "id": "left-lobe",
+      "fma": "FMA71195",
+      "source": "3.0",
+      "concepts": [
+        "FMA71195"
+      ],
+      "sourceName": "left lobe of thymus",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA71195",
+          "concept": "FMA71195",
+          "sourceName": "left lobe of thymus",
+          "sha256": "0f80921398f38201517c617a086d967d611ebb6506701ac2412b5b7c7d2d0439",
+          "bytes": 2297284,
+          "vertices": 22974,
+          "triangles": 45944
+        }
+      ]
+    },
+    {
+      "id": "ascending-aorta",
+      "fma": "FMA3736",
+      "source": "3.0",
+      "concepts": [
+        "FMA3736"
+      ],
+      "sourceName": "ascending aorta",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA3736",
+          "concept": "FMA3736",
+          "sourceName": "ascending aorta",
+          "sha256": "c99fcd415e7d7df717446f32601324b53656a96c41ff9190c766e39381e108e3",
+          "bytes": 107884,
+          "vertices": 1080,
+          "triangles": 2156
+        }
+      ]
+    },
+    {
+      "id": "aortic-arch",
+      "fma": "FMA3768",
+      "source": "3.0",
+      "concepts": [
+        "FMA3768"
+      ],
+      "sourceName": "arch of aorta",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA3768",
+          "concept": "FMA3768",
+          "sourceName": "arch of aorta",
+          "sha256": "d45fa63a0dda6f6cea8e5db8bdd3fba851fe8e4dd5c679afe68ae47eb6ad56eb",
+          "bytes": 164184,
+          "vertices": 1643,
+          "triangles": 3282
+        }
+      ]
+    },
+    {
+      "id": "brachiocephalic-trunk",
+      "fma": "FMA3932",
+      "source": "3.0",
+      "concepts": [
+        "FMA3932"
+      ],
+      "sourceName": "brachiocephalic artery, nsn",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA3932nsn",
+          "concept": "FMA3932",
+          "sourceName": "brachiocephalic artery, nsn",
+          "sha256": "4d0ef7d674f6c4788a5ff6099fe2f3b6387c554cf23e23733ddbf97a0b9b19a1",
+          "bytes": 60584,
+          "vertices": 607,
+          "triangles": 1210
+        }
+      ]
+    },
+    {
+      "id": "left-common-carotid",
+      "fma": "FMA4058",
+      "source": "3.0",
+      "concepts": [
+        "FMA4058"
+      ],
+      "sourceName": "left common carotid artery",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA4058",
+          "concept": "FMA4058",
+          "sourceName": "left common carotid artery",
+          "sha256": "81d0a45cb5ce9947ddebaf9e35c7324b2e2d5195885e85487937b1e83962a036",
+          "bytes": 34984,
+          "vertices": 351,
+          "triangles": 698
+        }
+      ]
+    },
+    {
+      "id": "left-subclavian",
+      "fma": "FMA4694",
+      "source": "3.0",
+      "concepts": [
+        "FMA4694"
+      ],
+      "sourceName": "left subclavian artery",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA4694",
+          "concept": "FMA4694",
+          "sourceName": "left subclavian artery",
+          "sha256": "d4fc1c72acb2df558ced1ba9e0f18e29a0b9448ab38552295a69919e535c494e",
+          "bytes": 161784,
+          "vertices": 1619,
+          "triangles": 3234
+        }
+      ]
+    },
+    {
+      "id": "pulmonary-trunk",
+      "fma": "FMA8612",
+      "source": "4.3",
+      "concepts": [
+        "FMA8612"
+      ],
+      "sourceName": "pulmonary trunk",
+      "elements": [
+        {
+          "release": "4.3",
+          "element": "FJ2966",
+          "concept": "FMA8612",
+          "sourceName": "Pulmonary trunk",
+          "sha256": "21cd36edc646954c795e8bd658f97448953b3e09d3e0c8b78f78711d7c9ef776",
+          "bytes": 89276,
+          "vertices": 871,
+          "triangles": 1302
+        }
+      ]
+    },
+    {
+      "id": "superior-vena-cava",
+      "fma": "FMA4720",
+      "source": "3.0",
+      "concepts": [
+        "FMA4720"
+      ],
+      "sourceName": "superior vena cava",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA4720",
+          "concept": "FMA4720",
+          "sourceName": "superior vena cava",
+          "sha256": "5be118bf9a3112718d16876762df66eb6d8998e433dd417f3ff0042057a08e10",
+          "bytes": 76684,
+          "vertices": 768,
+          "triangles": 1532
+        }
+      ]
+    },
+    {
+      "id": "right-brachiocephalic-vein",
+      "fma": "FMA4751",
+      "source": "3.0",
+      "concepts": [
+        "FMA4751"
+      ],
+      "sourceName": "right brachiocephalic vein",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA4751",
+          "concept": "FMA4751",
+          "sourceName": "right brachiocephalic vein",
+          "sha256": "109f8f13294643633dd6aa43c4ad6095001fe62d735c44b398f7dec1a09e4618",
+          "bytes": 70084,
+          "vertices": 702,
+          "triangles": 1400
+        }
+      ]
+    },
+    {
+      "id": "left-brachiocephalic-vein",
+      "fma": "FMA4761",
+      "source": "3.0",
+      "concepts": [
+        "FMA4761"
+      ],
+      "sourceName": "left brachiocephalic vein",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA4761",
+          "concept": "FMA4761",
+          "sourceName": "left brachiocephalic vein",
+          "sha256": "f5b05af3b7c8f34ae753f37c2e01fa7055f0331eaf2ba2bcc7fb074dc98b35a6",
+          "bytes": 95984,
+          "vertices": 961,
+          "triangles": 1918
+        }
+      ]
+    },
+    {
+      "id": "heart",
+      "fma": "FMA7274",
+      "source": "4.3",
+      "concepts": [
+        "FMA13884",
+        "FMA9531",
+        "FMA9457"
+      ],
+      "sourceName": "walls of the ventricles and atria",
+      "elements": [
+        {
+          "release": "4.3",
+          "element": "FJ2428",
+          "concept": "FMA13884",
+          "sourceName": "Wall of ventricle",
+          "sha256": "db5d6415f07c42b7b1af03f66190679595f8b6c4ff659b8d571ba8694afed75f",
+          "bytes": 2660566,
+          "vertices": 21053,
+          "triangles": 37442
+        },
+        {
+          "release": "4.3",
+          "element": "FJ2438",
+          "concept": "FMA9531",
+          "sourceName": "Wall of left atrium",
+          "sha256": "17544b1214ea0626f9564aeb42b5bb9d52a126f22237a499f8de0eca6073d8a7",
+          "bytes": 509716,
+          "vertices": 4284,
+          "triangles": 7544
+        },
+        {
+          "release": "4.3",
+          "element": "FJ2439",
+          "concept": "FMA9457",
+          "sourceName": "Wall of right atrium",
+          "sha256": "85fddffea47ac61de11d29219fc4f32dfc857d17b3082929a3f048c57522c887",
+          "bytes": 1211319,
+          "vertices": 9887,
+          "triangles": 17784
+        }
+      ]
+    },
+    {
+      "id": "trachea",
+      "fma": "FMA7394",
+      "source": "3.0",
+      "concepts": [
+        "FMA7394"
+      ],
+      "sourceName": "trachea",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA7394",
+          "concept": "FMA7394",
+          "sourceName": "trachea",
+          "sha256": "6cc38ce5ad2602ba214ef47e9bc94f7f44ef650772258caeee7060e20f6deda0",
+          "bytes": 693584,
+          "vertices": 6939,
+          "triangles": 13870
+        }
+      ]
+    }
+  ]
+}
