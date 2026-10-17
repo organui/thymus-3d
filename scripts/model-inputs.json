@@ -1,0 +1,167 @@
+{
+  "bp30": {
+    "repository": "https://github.com/Kevin-Mattheus-Moerman/BodyParts3D",
+    "commit": "f0eeb6e843380cfe6b83797cf8c3e1af74de5e61",
+    "release": "BodyParts3D 3.0 (20110915, BodyParts3D_3.0_obj_95), converted to binary STL by the mirror",
+    "partsList": {
+      "file": "parts_list_e.txt",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/parts_list_e.txt",
+      "sha256": "824a34ed939a53375037d0d68b88ad2b63b1f0ae15a585632af2a63c2ab2e4af"
+    },
+    "stls": [
+      {
+        "id": "FMA71194",
+        "file": "FMA71194.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA71194.stl",
+        "sha256": "ceb34fae4ffcf10f560e9285165c4a613c9e264a7d54d824ed567cffc537cd28",
+        "bytes": 1613484
+      },
+      {
+        "id": "FMA71195",
+        "file": "FMA71195.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA71195.stl",
+        "sha256": "0f80921398f38201517c617a086d967d611ebb6506701ac2412b5b7c7d2d0439",
+        "bytes": 2297284
+      },
+      {
+        "id": "FMA3736",
+        "file": "FMA3736.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA3736.stl",
+        "sha256": "c99fcd415e7d7df717446f32601324b53656a96c41ff9190c766e39381e108e3",
+        "bytes": 107884
+      },
+      {
+        "id": "FMA3768",
+        "file": "FMA3768.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA3768.stl",
+        "sha256": "d45fa63a0dda6f6cea8e5db8bdd3fba851fe8e4dd5c679afe68ae47eb6ad56eb",
+        "bytes": 164184
+      },
+      {
+        "id": "FMA3932nsn",
+        "file": "FMA3932nsn.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA3932nsn.stl",
+        "sha256": "4d0ef7d674f6c4788a5ff6099fe2f3b6387c554cf23e23733ddbf97a0b9b19a1",
+        "bytes": 60584
+      },
+      {
+        "id": "FMA4058",
+        "file": "FMA4058.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA4058.stl",
+        "sha256": "81d0a45cb5ce9947ddebaf9e35c7324b2e2d5195885e85487937b1e83962a036",
+        "bytes": 34984
+      },
+      {
+        "id": "FMA4694",
+        "file": "FMA4694.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA4694.stl",
+        "sha256": "d4fc1c72acb2df558ced1ba9e0f18e29a0b9448ab38552295a69919e535c494e",
+        "bytes": 161784
+      },
+      {
+        "id": "FMA4720",
+        "file": "FMA4720.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA4720.stl",
+        "sha256": "5be118bf9a3112718d16876762df66eb6d8998e433dd417f3ff0042057a08e10",
+        "bytes": 76684
+      },
+      {
+        "id": "FMA4751",
+        "file": "FMA4751.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA4751.stl",
+        "sha256": "109f8f13294643633dd6aa43c4ad6095001fe62d735c44b398f7dec1a09e4618",
+        "bytes": 70084
+      },
+      {
+        "id": "FMA4761",
+        "file": "FMA4761.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA4761.stl",
+        "sha256": "f5b05af3b7c8f34ae753f37c2e01fa7055f0331eaf2ba2bcc7fb074dc98b35a6",
+        "bytes": 95984
+      },
+      {
+        "id": "FMA7394",
+        "file": "FMA7394.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7394.stl",
+        "sha256": "6cc38ce5ad2602ba214ef47e9bc94f7f44ef650772258caeee7060e20f6deda0",
+        "bytes": 693584
+      }
+    ],
+    "references": [
+      {
+        "id": "FMA7274",
+        "file": "FMA7274.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7274.stl",
+        "sha256": "ed570773264c7abf73db5f5da20e5e4f69943315e8c5995da850a2821988b0a2",
+        "bytes": 16579684
+      },
+      {
+        "id": "FMA66326",
+        "file": "FMA66326.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA66326.stl",
+        "sha256": "3067ec3d6f6c9a98ac2797d6de36f3eb39c7e2569edc6da7f44b6e545dde8af3",
+        "bytes": 5847484
+      }
+    ]
+  },
+  "bp43": {
+    "repository": "https://github.com/olivercase/body_parts_3d_api",
+    "commit": "fd527e6f4daf732fd814314d9257df5877b844bc",
+    "mapping": {
+      "file": "docs/model-source/FMA2Obj-4.3.tsv",
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    "objects": [
+      {
+        "id": "FJ2428",
+        "file": "FJ2428.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2428_BP21837_FMA13884_Wall%20of%20ventricle.obj",
+        "sha256": "db5d6415f07c42b7b1af03f66190679595f8b6c4ff659b8d571ba8694afed75f",
+        "bytes": 2660566,
+        "mirrorPath": "meshes/FJ2428_BP21837_FMA13884_Wall of ventricle.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2428_BP21837_FMA13884_Wall%20of%20ventricle.obj"
+      },
+      {
+        "id": "FJ2438",
+        "file": "FJ2438.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2438_BP22747_FMA9531_Wall%20of%20left%20atrium.obj",
+        "sha256": "17544b1214ea0626f9564aeb42b5bb9d52a126f22237a499f8de0eca6073d8a7",
+        "bytes": 509716,
+        "mirrorPath": "meshes/FJ2438_BP22747_FMA9531_Wall of left atrium.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2438_BP22747_FMA9531_Wall%20of%20left%20atrium.obj"
+      },
+      {
+        "id": "FJ2439",
+        "file": "FJ2439.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2439_BP21422_FMA9457_Wall%20of%20right%20atrium.obj",
+        "sha256": "85fddffea47ac61de11d29219fc4f32dfc857d17b3082929a3f048c57522c887",
+        "bytes": 1211319,
+        "mirrorPath": "meshes/FJ2439_BP21422_FMA9457_Wall of right atrium.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2439_BP21422_FMA9457_Wall%20of%20right%20atrium.obj"
+      },
+      {
+        "id": "FJ2966",
+        "file": "FJ2966.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2966_BP23682_FMA8612_Pulmonary%20trunk.obj",
+        "sha256": "21cd36edc646954c795e8bd658f97448953b3e09d3e0c8b78f78711d7c9ef776",
+        "bytes": 89276,
+        "mirrorPath": "meshes/FJ2966_BP23682_FMA8612_Pulmonary trunk.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2966_BP23682_FMA8612_Pulmonary%20trunk.obj"
+      }
+    ],
+    "alignment": [
+      {
+        "structure": "heart",
+        "reference": "FMA7274",
+        "shiftMm": [0, 0, 10.2],
+        "medianResidualMm": 0.2
+      },
+      {
+        "structure": "pulmonary-trunk",
+        "reference": "FMA66326",
+        "shiftMm": [-0.1, 0, 10.5],
+        "medianResidualMm": 0.2
+      }
+    ]
+  }
+}
