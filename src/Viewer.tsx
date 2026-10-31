@@ -106,11 +106,11 @@ function CameraControls({
       new Vector3(
         // Lateral looks from the patient's left (display +X), where the left
         // lobe of the thymus lies over the aortic arch and pulmonary trunk.
-        ...((view === 'Posterior' ? [0, 0, -1] : view === 'Lateral' ? [1, 0, 0] : [0, 0, 1]) as [
-          number,
-          number,
-          number,
-        ]),
+        ...((view === 'Posterior'
+          ? [0, 0, -1]
+          : view === 'Left lateral'
+            ? [1, 0, 0]
+            : [0, 0, 1]) as [number, number, number]),
       ).normalize()
     const fit = (direction: Vector3) =>
       Math.min(

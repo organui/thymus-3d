@@ -210,7 +210,7 @@ export const groups = [
   'Neighbouring organs',
 ] as const satisfies readonly Group[]
 export const byId = Object.fromEntries(structures.map((s) => [s.id, s]))
-export type View = 'Anterior' | 'Lateral' | 'Posterior'
+export type View = 'Anterior' | 'Left lateral' | 'Posterior'
 export const tour: { id: string; title: string; text: string; view: View; isolate?: boolean }[] = [
   {
     id: 'right-lobe',
@@ -222,7 +222,7 @@ export const tour: { id: string; title: string; text: string; view: View; isolat
     id: 'left-lobe',
     title: 'Over the arch',
     text: 'From the left side, the left lobe rests in front of the aortic arch and the pulmonary trunk.',
-    view: 'Lateral',
+    view: 'Left lateral',
   },
   {
     id: 'left-brachiocephalic-vein',
