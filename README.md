@@ -45,7 +45,7 @@ The app is static and uses relative build paths. No deployment has been performe
 
 ![Left lobe selected with the rest ghosted, seen from behind](docs/screenshots/anatomy.png)
 
-![Lateral view from the left, with the left lobe in front of the aortic arch](docs/screenshots/lateral.png)
+![Left lateral view, with the left lobe in front of the aortic arch](docs/screenshots/lateral.png)
 
 ![Posterior view](docs/screenshots/posterior.png)
 
